@@ -468,7 +468,7 @@ const WithdrawPopup: React.FC<WithdrawPopupProps> = ({ onClose, balance, minimum
           </div>
           
           <p className="text-xs text-[#CB8D00] text-center mt-2">
-            Make sure to enter a valid Dogecoin address (starts with 'D', 34 characters)
+            Make sure to enter a valid Dogecoin address (starts with &apos;D&apos;, 34 characters)
           </p>
         </div>
         
