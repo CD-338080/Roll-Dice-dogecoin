@@ -403,7 +403,7 @@ export default function Airdrop() {
                                 {/* Telegram Channel Button */}
                                 <div className="flex justify-center mb-6">
                                     <a
-                                        href="https://t.me/Live_Payments_1WIN"
+                                        href="https://t.me/Online_Payments_Spin_Doge"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="group relative w-full max-w-md"
