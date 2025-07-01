@@ -225,3 +225,18 @@ export default function Loading({ setIsInitialized, setCurrentView }: LoadingPro
     </div>
   );
 }
+
+function HomePage() {
+  const [isInitialized, setIsInitialized] = useState(false);
+  const [currentView, setCurrentView] = useState('loading');
+
+  // You can add logic to render other views if needed, for now just render Loading
+  return (
+    <Loading
+      setIsInitialized={setIsInitialized}
+      setCurrentView={setCurrentView}
+    />
+  );
+}
+
+export default HomePage;
