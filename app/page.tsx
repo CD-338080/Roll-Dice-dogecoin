@@ -29,7 +29,7 @@ interface LoadingProps {
   setCurrentView: (view: string) => void;
 }
 
-export default function Loading({ setIsInitialized, setCurrentView }: LoadingProps) {
+function Loading({ setIsInitialized, setCurrentView }: LoadingProps) {
   const initializeState = useGameStore((state: GameState) => state.initializeState);
   const [isDataLoaded, setIsDataLoaded] = useState(false);
   const openTimestampRef = useRef(Date.now());
