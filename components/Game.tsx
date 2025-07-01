@@ -28,7 +28,6 @@ import Snowflake from '@/icons/Snowflake';
 import TopInfoSection from '@/components/TopInfoSection';
 import { LEVELS } from '@/utils/consts';
 import { triggerHapticFeedback } from '@/utils/ui';
-import SendMessage from '@/components/popups/SendMessage';
 
 interface GameProps {
   currentView: string;
